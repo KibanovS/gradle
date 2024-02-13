@@ -13,6 +13,7 @@ public class CashBackServiceTest {
 
     @Test
     public void shouldAmountMoreThan1000() {
+
         assertEquals(service.remain(1400), 600);
     }
 
